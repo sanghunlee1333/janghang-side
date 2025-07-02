@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "kcisa.api.service-key",
+    "type": "java.lang.String",
+    "description": "kcisa.api를 사용할 때 필요한 서비스 키'"
+  },
+  {
+    "name": "kcisa.api.endpoint",
+    "type": "java.lang.String",
+    "description": "kcisa.api의 엔드포인트"
+  },
+  {
+    "name": "kcisa.api.base-url",
+    "type": "java.lang.String",
+    "description": "kcisa.api의 베이스 url"
+  },
+  {
+      "name": "kcisa.api.use-external",
+      "type": "boolean",
+      "description": "외부에 있는 키를 사용하거나 내부에 있는 키를 사용함 true/false"   
+  },
+  {
+    "name": "kcisa.api.external-key-path",
+    "type": "java.lang.String",
+    "description": "외부에 있는 키를 사용하고 싶을 경우 키의 위치(파일명 까지)"
+  }
+]}
