@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+
 <c:forEach var="item" items="${items}">
     <div>
 		test

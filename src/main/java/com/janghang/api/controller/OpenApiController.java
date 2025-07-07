@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/api/openapi")
 public class OpenApiController {
 
     private final ApiService apiService;
@@ -16,7 +15,7 @@ public class OpenApiController {
         this.apiService = apiService;
     }
 
-    @GetMapping("/")
+    @GetMapping("/openapi")
     public String openApi(Model model) {
         String apiResult = apiService.callOpenApi();
         model.addAttribute("apiResult", apiResult);
